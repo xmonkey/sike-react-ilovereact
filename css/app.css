@@ -100,13 +100,14 @@ a:hover {
 .iphone-demo {
   background-color: rgba(255,0,0,0.3);
   align-self: stretch;
-  flex-grow: 1;
-  flex-basis: 0
+  flex: 1;
 }
 
 .feature-description {
   background-color: rgba(0,255,0,0.3);
   align-self: stretch;
-  flex-grow: 1;
-  flex-basis: 0
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
